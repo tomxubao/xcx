@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/img/img",
+    "pages/mine/mine",
+    "pages/search/search",
+    "pages/demo01/demo01",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room"
+
+  ],
+  "window": {
+    "backgroundColor": "pink",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "许豹的小程序",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "tabbar/home.png",
+      "selectedIconPath": "tabbar/homeed.png"
+    
+    
+    },
+    {
+      "pagePath": "pages/img/img",
+      "text": "预览",
+      "iconPath": "tabbar/index.png",
+      "selectedIconPath": "tabbar/indexed.png"
+    }
+    ,
+    {
+      "pagePath": "pages/home/home",
+      "text": "搜索",
+      "iconPath": "tabbar/news.png",
+      "selectedIconPath": "tabbar/newsed.png"
+    }
+    ,
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "tabbar/paper.png",
+      "selectedIconPath": "tabbar/papered.png"
+    }
+  ],
+  "color": "#666666",
+  "selectedColor": "#ff9400"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
